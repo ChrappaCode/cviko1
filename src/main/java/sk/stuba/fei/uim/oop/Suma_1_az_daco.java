@@ -12,13 +12,22 @@ public class Suma_1_az_daco {
 
         System.out.println("mensie z cisel 1 a 3 je : " + Math.min(1,3));
 
-        int x = 10;
-        int y = 9;
-        System.out.println(x > y);
+        int o = 10;
+        int p = 9;
+        System.out.println(o > p);
 
         int[] myNum = {10, 20, 30, 40};
         System.out.println("myNum: "+ myNum[2]);
 
+        int[] pole = new int[11];
+
+        for(int y = 0 ; y < pole.length; y++){
+            pole[y]=y;
+        }
+        for(int y = 0 ; y < pole.length; y++){
+            System.out.print(pole[y]+" ");
+        }
+        System.out.println();
     }
 
 }
