@@ -15,6 +15,10 @@ public class Suma_1_az_daco {
         int x = 10;
         int y = 9;
         System.out.println(x > y);
+
+        int[] myNum = {10, 20, 30, 40};
+        System.out.println("myNum: "+ myNum[2]);
+
     }
 
 }
