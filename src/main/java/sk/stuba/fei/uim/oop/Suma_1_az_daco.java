@@ -24,9 +24,16 @@ public class Suma_1_az_daco {
         for(int y = 0 ; y < pole.length; y++){
             pole[y]=y;
         }
+        for (int i : pole) {
+            System.out.print(i + " ");
+        }
+        /*
+        to iste inak
         for(int y = 0 ; y < pole.length; y++){
             System.out.print(pole[y]+" ");
         }
+        */
+
         System.out.println();
     }
 
